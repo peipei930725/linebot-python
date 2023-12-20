@@ -59,7 +59,7 @@ def handle_message(event):
             reply = "Hello World!"
         elif event.message.text == "nihow":
             reply = "nuk gdsc!"
-        elif event.message.text == "123"
+        elif event.message.text == "123":
             reply = "123456"
         line_bot_api.reply_message_with_http_info(
             ReplyMessageRequest(
